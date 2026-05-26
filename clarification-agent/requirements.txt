@@ -1,0 +1,20 @@
+# Clarification Agent - 依赖清单
+# 所有必需的第三方库，版本经过验证兼容
+
+# Pydantic v2 - 强类型数据验证
+pydantic>=2.0,<3.0
+
+# Tenacity - 自动重试机制
+tenacity>=8.5,<10.0
+
+# FastAPI - Web 框架
+fastapi>=0.100.0,<1.0.0
+
+# Uvicorn - ASGI 服务器（可选，用于独立运行）
+uvicorn>=0.20.0,<1.0.0
+
+# OpenAI SDK - 官方 OpenAI 客户端
+openai>=1.0,<3.0
+
+# 可选：用于代码质量检查
+ruff>=0.10.0
